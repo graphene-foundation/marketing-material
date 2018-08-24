@@ -1,0 +1,55 @@
+The Graphene technology utilizes  a core native token -- arbitrarily called GPH in this section -- which serves as a utility token and offers governance properties to its holders. Governance describes the progress of governing the Blockchains many variable aspects in a way it it can adapt to future changes more easily.
+
+\subsection{ Governance }
+The Graphene technology allows that decisions are made by the holders of GPH core native token, weighted by the amount of GPH owned. In order to improve voting participation and simplify the life of GPH holders, voters can either vote directly or delegate voting power to so called \emph{proxies}. This is similar to a representative democracy, where selected persons decide the course of action. Those leaders have to account for their actions and can be unelected by the core token holders. Unwanted actions includes censoring, favoring, or simply failure to produce blocks in a timely manner. However, the difference to a democracy is that voters in the community have their vote weighted by the amount of GPH that they own in their account. Votes may or may not decay over time, depending on the actual implementation.
+
+At any time, voters have to decide on the following aspects of a blockchain powered by the Graphene technology. The list may not be complete for an actual implementation as other aspects can be added to be voted on.
+
+\paragraph{Members for Block Production (Witnesses) }
+Block production is arranged through DPoS which requires block producers to run for witness and campaign for sufficient votes from GPH holders before 
+they can produce blocks on the blockchain and consequently get rewarded per produced block. Given the governance system and quick re-tallying of votes, a 
+misbehaving block producer can be dismissed within hours. Next to the actual selection of block producers, the voters also have a say over how many block 
+producers should exist.
+
+\paragraph{Project Funding (Workers) }
+Last but not least, the voters have control over who receives funding from the Working Budget of the Blockchain. A worker applies for project funding and 
+needs to campaign for sufficient votes before being rewarded. Similar to block producers and committee members, the rigorous voting system allows 
+almost immediate removal by BTS holders and proxies.
+
+\paragraph{Example: Introducing Blockchain Governance (Committee) }
+The BitShares Blockchain introduces an additional entity that needs to be voted on, namely the committee. 
+The Committee comprises a board that has control over a few blockchain parameters such as block size, block time, witness reward, and over 30 others. 
+Additionally, the BitShares platform introduces transaction fees that need to be paid by the users. Those fees replenish the working budget and are the economical 
+model of the BitShares blockchain. The committee governs the fee schedule which defines the minimum fee for each operation. Voters can cast a vote 
+for how many members the committee should constitute as well as vote for a particular set of members.
+
+\subsection{ Initial Allocation }
+In the \emph{genesis block} of a blockchain the initial supply of the native core token is distributed to individual keys. These tokens can be claimed by proving ownership of the corresponding private key.
+
+The core token usually comes with a limited supply that is different from circulating (liquid) supply. A max supply is to be put in place on the blockchain. This can never change. 
+Not all core tokens are usually distributed initially, the remaining are set aside for future project funding and rewarding block 
+producers, and is only accessible with approval by the GPH holders through the worker system. This so called working budget is also often referred 
+to as \emph{reserves}. 
+
+\subsection{ Supply }
+In this section, we would like to discuss the actual supply of the core GPH token in more detail. Firstly, we define the \emph{max supply} as that supply that 
+can at most be in circulation, similar to how there will only ever be \emph{up to} 21 million BTC on the Bitcoin Blockchain. Furthermore, the \emph{circulating 
+supply} represents that amount that currently is in circulation and held by participants on the Blockchain. Obviously, the circulating supply will 
+always be smaller than or equal to the max supply. Furthermore, for voting, only the \emph{circulating supply} applies.
+
+\subsection{ Working Budget }
+The difference between max supply and circulating supply is called the \emph{Working Budget} and has often in the past been referred to as the \emph{reserves}.
+A daily budget is defined that is used for development, with a defined maximum daily payout.
+From this daily budget, block production as well as for project funding are made. Of course, the GPH holders have the choice and need to approve payouts from the working budget.
+
+\paragraph{Block Production (Witnesses) }
+Block production comes at a cost for running and maintaining equipment. This is acknowledges by rewarding block 
+producers in core GPH tokens per produced block. Mechanism to adjust the amount per block can be put in place. Those GPH are taken from the working budget.
+
+\paragraph{Project Funding (Workers) }
+A certain amount of the daily available tokens can be allocated to make development possible by means of workers. Anyone can set up a worker 
+on a blockchain powered by the Graphene technology and ask for a daily allowance in GPH. If the GPH holders approve a particular worker, the GPH are transferred from the 
+daily budget. A soft-limit defines the maximum amount of the daily budget that is given to all approved workers. Consequently, those workers 
+that have received more votes from GPH holders will receive their funds first. This means that workers, even if approved, may not be funded if 
+the aforementioned threshold is hit. Furthermore, workers constantly stand under the scrutiny of the GPH holders who can disapprove (i.e. retract their vote, 'fire') 
+workers that do not deliver.
