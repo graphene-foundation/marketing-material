@@ -1,18 +1,18 @@
-The Graphene technology makes use of human-readable account names that have to be registered together with public-keys in the blockchain prior to its usage.
-Thus, the blockchain acts as a name-to-public-key resolver similar to the traditional domain name service (DNS). These named accounts enable users 
-to easily remember and communicate their account information instead of using error-prone \emph{addresses}. Depending on individual needs, applications 
+The Graphene technology makes use of human-readable account names that have to be registered together with public-keys in the Blockchain prior to its usage.
+Thus, the Blockchain acts as a name-to-public-key resolver similar to the traditional Domain Name Service (DNS). These named accounts enable users 
+to easily remember and communicate their account information instead of using error-prone alphanumeric \emph{addresses}. Depending on individual needs, applications 
 making use of Graphene technology can create environments which have full KYC (Know Your Customer) support through so 
 called \emph{whitelisting} which enables a maximum of control or transparency when so desired.
 
 \subsection{ Permissions }
 The Graphene technology designs permissions around accounts, rather than around cryptography, making it easier to use. Every account can be controlled 
-by weighted combination of other accounts and/or keys. This creates a hierarchical structure that reflects how permissions are organized in real life, and 
+by combination of weighted accounts and/or keys. This creates a hierarchical structure that reflects how permissions are organized in real life, and 
 makes multi-user control over funds easier for users. Hence, the Graphene technology does technically not have multi-signature accounts, but has multi-account permissions. 
-That said, each public/private key pair is assigned a weight, and a threshold is defined for the authority (see definition below). In order for a transaction 
-to be valid, enough entities must sign so that the sum of their weights meets or exceeds the threshold.
+That said, each public/private key pair is assigned a weight, and a threshold is defined for the \emph{authority} (see definition below). In order for a transaction 
+to be valid, sufficient entities must sign so that the sum of their weights meets or exceeds the threshold.
 
 \subsection{ Authorities }
 The Graphene technology employs a first of its kind hierarchical private key system to facilitate regular keys and backup keys. Regular (\emph{active}) keys are 
-for day-to-day usage, while a separate backup (\emph{owner}) key can be used to recover access to an account in case of loss of the regular keys. Ideally the 
+for day-to-day usage, while a separate backup (\emph{owner}) key can be used to recover access to an account in case of loss of the regular keys. Ideally, the 
 owner key is meant to be stored offline, and only used when the account's keys need to be changed or to recover a lost key. Most software that supports 
 the Graphene technology also facilitates the use of a Master Password that encrypts the client's keys locally.
