@@ -144,7 +144,7 @@
 %% -----------------------------
 %% Headers
 %% -----------------------------
-\newcommand{\gitline}{}
+\newcommand{\gitline}{\raisebox{2ex}{\color{lightgray}Prelimary version 20180918}}
 \fancypagestyle{wp}{%
  \fancyhf{}
  \fancyhead[R]{{\color{black}\sffamily\thepage}\draftcode}
