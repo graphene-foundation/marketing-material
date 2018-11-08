@@ -144,14 +144,14 @@
 %% -----------------------------
 %% Headers
 %% -----------------------------
-\newcommand{\gitline}{\raisebox{2ex}{\color{lightgray}Prelimary version 20180918}}
+\newcommand{\gitline}{\raisebox{2ex}{\color{lightgray}Graphene Foundation, 8th of November 2018}}
 \fancypagestyle{wp}{%
  \fancyhf{}
  \fancyhead[R]{{\color{black}\sffamily\thepage}\draftcode}
  \fancyhead[L]{{\color{black}\sffamily \nouppercase{\textsc{\rightmark}}}}
  \fancyfoot{}
  \fancyfoot[L]{\gitline}
- \fancyfoot[R]{\includegraphics[height=2cm]{figures/btslogo6.png}}
+ \fancyfoot[R]{\includegraphics[height=2cm]{figures/logo-graphene-blue.png}}
  \renewcommand{\headrule}{\color{btsdark}\hrule}
  \renewcommand{\headrulewidth}{0.4pt}
 }
